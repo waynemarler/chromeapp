@@ -1,3 +1,7 @@
+
+window.onload=function () { 
+
+
 function getRandomPosition(element) {
 	var x = document.body.offsetHeight-element.clientHeight;
 	var y = document.body.offsetWidth-element.clientWidth;
@@ -79,4 +83,4 @@ const card = document.createElement("IMG");
     
     document.getElementById("Pogcont").onclick=function(){popupFunction()};
     
-
+}

@@ -1,12 +1,12 @@
 #Pogcont {
 	
-    max-height: 250px;
+    max-height: 300px;
   
 
 }
 
 .Pogcont {
-  position: relative;
+  position: absolute;
   display: inline-block;
   cursor: pointer;
   -webkit-user-select: none;
@@ -28,7 +28,7 @@
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -120px;
 }
 
 .Pogcont .popupcont::after {
